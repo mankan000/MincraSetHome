@@ -3,7 +3,7 @@ main: mincrasethome.MincraSetHome
 version: 1.1
 website: http://mincra.ikaduchi.com/plugins.html
 author: amutas
-depend: [PermissionsEx]
+depend: []
 commands:
      sethome:
       description: This is a demo command.
