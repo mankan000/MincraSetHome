@@ -1,0 +1,24 @@
+name: MincraSetHome
+main: mincrasethome.MincraSetHome
+version: 1.1
+website: http://mincra.ikaduchi.com/plugins.html
+author: amutas
+depend: [PermissionsEx]
+commands:
+     sethome:
+      description: This is a demo command.
+      aliases: sh
+      usage: /sethome <HomeName>
+      permission: mincra.home
+      permission-message: You don't have <permission>
+     home:
+      description: This is a demo command.
+      usage: /home <HomeName>
+      aliases: ho
+      permission: mincra.home
+      permission-message: You don't have <permission>
+     mincrasethome:
+      description: This is a demo command.
+      aliases: msh
+      usage: /<command>
+      permission-message: You don't have <permission>

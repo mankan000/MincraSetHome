@@ -1,0 +1,16 @@
+limit: false
+Location:
+    x_start: 0
+    y_start: 0
+    z_start: 0
+    x_end: 100
+    y_end: 100
+    z_end: 100
+    string: 壁外では使用できません。
+ExceptionWorld: false
+World:
+    - world_nether
+    - world_the_end
+string2: そのワールドでは使用できません。
+groups:
+    - default: 1
