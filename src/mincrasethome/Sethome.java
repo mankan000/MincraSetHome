@@ -80,7 +80,6 @@ public class Sethome implements CommandExecutor {
 			st1=MincraSetHome.config.getString("Location.string");
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 		if(!(sender instanceof Player)){
