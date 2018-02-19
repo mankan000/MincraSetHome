@@ -258,20 +258,20 @@ public class Sethome implements CommandExecutor {
 					player.sendMessage(ChatColor.GREEN+homename+"homeを上書き設定しました。");
 				}else{
 					Integer limitquantity = pexlist.get("default");
-					if(player.hasPermission("mincra.home.10")){
-						limitquantity = 10;
-					}
-					else if(player.hasPermission("mincra.home.20")){
-						limitquantity = 20;
-					}
-					else if(player.hasPermission("mincra.home.30")){
-						limitquantity = 30;
+					if(player.hasPermission("mincra.home.50")){
+						limitquantity = 50;
 					}
 					else if(player.hasPermission("mincra.home.40")){
 						limitquantity = 40;
 					}
-					else if(player.hasPermission("mincra.home.50")){
-						limitquantity = 50;
+					else if(player.hasPermission("mincra.home.30")){
+						limitquantity = 30;
+					}
+					else if(player.hasPermission("mincra.home.20")){
+						limitquantity = 20;
+					}
+					else if(player.hasPermission("mincra.home.10")){
+						limitquantity = 10;
 					}
 //PermissionsExに依存しない形を選択					for(String pexname:pex.getPermissionsManager().getUser(player.getName()).getGroupNames()){
 //						if(pexlist.containsKey(pexname)){
